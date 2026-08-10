@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #f5f1ea;
+  --color-text: #1f2933;
+  --color-muted: #6b7280;
+  --color-wood: #a16207;
+  --color-accent: #d97706;
+  --color-dark: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: Inter, system-ui, sans-serif;
+}
