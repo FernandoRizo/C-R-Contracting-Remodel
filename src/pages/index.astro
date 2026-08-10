@@ -41,9 +41,9 @@ const projects = [
   },
 ];
 
-const whatsappNumber = "523300000000";
+const whatsappNumber = "12545007258";
 const whatsappMessage = encodeURIComponent(
-  "Hola, vi la página de C&R Remodelación y me interesa solicitar una cotización."
+  "Hola, vi la página de C&R Contracting & Remodel y me interesa solicitar una cotización."
 );
 
 const heroImages = [
@@ -74,19 +74,32 @@ const heroImages = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>C&R Remodelación | Carpintería, albañilería y mantenimiento en Guadalajara</title>
+    <title>C&R Contracting & Remodel | Remodelación, carpintería y albañilería en Guadalajara</title>
     <meta
       name="description"
-      content="C&R Remodelación ofrece servicios de carpintería, albañilería, reparaciones y mantenimiento del hogar."
+      content="C&R Contracting & Remodel ofrece servicios de remodelación, carpintería, albañilería, reparaciones y mantenimiento del hogar en Guadalajara y zona metropolitana."
     />
   </head>
 
   <body>
     <header class="fixed left-0 top-0 z-50 w-full border-b border-black/10 bg-[var(--color-bg)]/90 backdrop-blur">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-        <a href="#" class="text-lg font-black tracking-tight">
-          C&R Remodelación <span class="text-[var(--color-accent)]">GDL</span>
-        </a>
+    <a href="#" class="flex items-center gap-3">
+      <img
+        src="/brand/logo.webp"
+        alt="C&R Contracting & Remodel"
+        class="h-12 w-auto object-contain"
+      />
+
+      <div class="hidden sm:block">
+        <p class="text-lg font-black leading-tight tracking-tight">
+          C&R Contracting & Remodel
+        </p>
+        <p class="text-xs font-medium text-gray-500">
+          Guadalajara, Jalisco
+        </p>
+      </div>
+    </a>
 
         <nav class="hidden gap-6 text-sm font-medium text-gray-700 md:flex">
           <a href="#servicios" class="hover:text-[var(--color-accent)]">Servicios</a>
